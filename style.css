@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    background-color: #31393c;
+}
+
+/* HEADER */
+header{
+    background-color: #0047B8;
+}
+
+.caixa{
+    width: 65%;
+    margin: 0 auto 30px auto;
+    padding: 30px 0;
+}
+
+.caixa nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    align-items: center;
+}
+
+.caixa ul{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.caixa li{
+    list-style: none;
+}
+
+.caixa h2{
+    color: black;
+}
+
+.caixa a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.caixa a:hover{
+    color: black;
+}
+
+/* INDEX */
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0047B8;
+    border-radius: 20px;
+}
+
+#photo{
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#photo:hover{
+    opacity: 75%;
+}
+
+.container div{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.container p{
+    margin: 5px 0;
+}
+
+/* CURRICULO */
+
+.competencias{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: #0047B8;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.competencias p{
+    margin: 10px 0;
+}
+
+.competencias h2{
+    margin: 20px 0 0 0;
+}
+
+.competencias a{
+    transition: 0.5s;
+}
+
+.competencias a:hover{
+    color: black;
+}
+
+/* CONTATOS */
+
+.contatos{
+    width: 65%;
+    margin: 0 auto;
+    background-color: #0047B8;
+    font-size: 20px;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 0.5S;
+}
+
+.contatos a:hover{
+    color: black;
+}
+
+/* FOOTER */
+
+footer{
+    margin: 30px 0 0 0;
+    background-color: #0047B8;
+}
+
+.rodape{
+    width: 65%;
+    display: flex;
+    padding: 15px 0;
+    margin: 0 auto;
+}
+
+.rodape img{
+    width: 40px;
+    margin: 0 30px;
+}
+
+.absolute{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #0047B8;
+}

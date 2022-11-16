@@ -35,6 +35,7 @@ header{
 
 .caixa li{
     list-style: none;
+    margin-right: 10px
 }
 
 .caixa h2{
@@ -53,12 +54,12 @@ header{
     color: black;
 }
 
-/* INDEX */
+/* PRINCIPAL */
 
 .container{
     width: 60%;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 40px;
     display: flex;
     justify-content: space-around;
     background-color: #0047B8;
@@ -83,6 +84,10 @@ header{
 
 .container p{
     margin: 5px 0;
+}
+
+.container h2{
+    margin-top: 20px;
 }
 
 /* CURRICULO */
@@ -126,8 +131,31 @@ header{
     transition: 0.5S;
 }
 
-.contatos a:hover{
+.contatos fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contatos h2{
+    margin-bottom: 10px;
+}
+
+.contatos label{
+    margin-bottom: 20px;
+}
+
+.contatos input{
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
     color: black;
+}
+
+.contatos textarea{
+    color: black;
+    border-radius: 5px;
 }
 
 /* FOOTER */
@@ -154,4 +182,76 @@ footer{
     bottom: 0;
     width: 100%;
     background-color: #0047B8;
+}
+
+@media(max-width: 500px){
+    /* Header */
+    *{
+        width: initial;
+    }
+    .caixa{
+        margin: 0 auto;
+    }
+    .caixa nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caixa ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    /* Principal */
+
+    .container{
+        width: initial;
+        background-color: initial;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container div{
+        margin: 0 auto;
+    }
+
+    #photo{
+        margin-top: 20px;
+        width: 80%;
+        align-self: center;
+    }
+
+    /* Curriculo */
+
+    .competencias{
+        width: initial;
+        background-color: initial;
+    }
+
+    /* Contatos*/
+    .contatos{
+        width: initial;
+        background-color: initial;
+    }
+
+    .contatos fieldset{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contatos legend{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .rodape{
+        position: initial;
+        width: initial;
+        display: flex;
+        justify-content: space-around;
+    }
 }

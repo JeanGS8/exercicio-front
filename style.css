@@ -254,4 +254,9 @@ footer{
         display: flex;
         justify-content: space-around;
     }
+
+    .absolute{
+        position: initial;
+        width: initial;
+    }
 }

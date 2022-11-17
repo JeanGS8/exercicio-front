@@ -6,12 +6,12 @@
 }
 
 body{
-    background-color: #31393c;
+    background-color: #281D1F;
 }
 
 /* HEADER */
 header{
-    background-color: #0047B8;
+    background-color: #4B3738;
 }
 
 .caixa{
@@ -62,18 +62,18 @@ header{
     padding: 40px;
     display: flex;
     justify-content: space-around;
-    background-color: #0047B8;
+    background-color: #4B3738;
     border-radius: 20px;
 }
 
 #photo{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
     transition: 0.5s;
 }
 
 #photo:hover{
-    opacity: 75%;
+    opacity: 80%;
 }
 
 .container div{
@@ -98,7 +98,7 @@ header{
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    background-color: #0047B8;
+    background-color: #4B3738;
     padding: 30px;
     border-radius: 20px;
 }
@@ -124,7 +124,7 @@ header{
 .contatos{
     width: 65%;
     margin: 0 auto;
-    background-color: #0047B8;
+    background-color: #4B3738;
     font-size: 20px;
     padding: 30px;
     border-radius: 20px;
@@ -162,7 +162,7 @@ header{
 
 footer{
     margin: 30px 0 0 0;
-    background-color: #0047B8;
+    background-color: #4B3738;
 }
 
 .rodape{
@@ -181,7 +181,7 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: #0047B8;
+    background-color: #4B3738;
 }
 
 @media(max-width: 500px){

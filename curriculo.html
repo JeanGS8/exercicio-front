@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header onmousemove="handleMove('header')" onmouseout="handleOut('header')">
         <div class="caixa">
             <nav>
                 <h2>Curriculo</h2>
@@ -22,7 +22,7 @@
     </header>
 
     <main>
-        <section class="competencias">
+        <section onmousemove="handleMove('.competencias')" onmouseout="handleOut('.competencias')" class="competencias">
             <h1> Jean Gomes da Silva </h1>
             <div>
                 <h2> Dados Pessoais </h2>
@@ -59,7 +59,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer onmousemove="handleMove('footer')" onmouseout="handleOut('footer')">
         <section class="rodape">
             <div>
                 <a target="_blank" href="https://www.linkedin.com/in/jeangs">
@@ -73,5 +73,7 @@
             </div>
         </section>
     </footer>
+    
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

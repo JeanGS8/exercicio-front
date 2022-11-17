@@ -195,6 +195,9 @@ footer{
     *{
         width: initial;
     }
+    header, main section{
+        box-shadow: none;
+    }
     .caixa{
         margin: 0 auto;
     }

@@ -9,10 +9,16 @@ body{
     background-color: #281D1F;
 }
 
-/* HEADER */
 header{
     background-color: #4B3738;
+    box-shadow: 2px 2px 2px black;
 }
+
+main section{
+    box-shadow: 2px 2px 2px black;
+}
+
+/* HEADER */
 
 .caixa{
     width: 65%;

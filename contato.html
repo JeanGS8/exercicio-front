@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header onmousemove="handleMove('header')" onmouseout="handleOut('header')">
+    <header onmousemove="handleMove(this)" onmouseout="handleOut(this)">
         <div class="caixa">
             <nav>
                 <h2>Contatos</h2>
@@ -22,7 +22,7 @@
     </header>
 
     <main>
-        <section onmousemove="handleMove('.contatos')" onmouseout="handleOut('.contatos')" class="contatos">
+        <section onmousemove="handleMove(this)" onmouseout="handleOut(this)" class="contatos">
             <div>
                 <form>
                     <fieldset>
@@ -43,7 +43,7 @@
         </section>
     </main>
 
-    <footer onmousemove="handleMove('footer')" onmouseout="handleOut('footer')" class="absolute">
+    <footer class="absolute">
         <section class="rodape">
             <div>
                 <a target="_blank" href="https://www.linkedin.com/in/jeangs">
